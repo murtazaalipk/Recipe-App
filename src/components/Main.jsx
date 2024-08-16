@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import RecipeCart from "./RecipeCart";
-
-
-
-
-
+import Link from 'react-router-dom';
 function Main(props) {
    
     const [recipes, setRecipes] = useState([]);
